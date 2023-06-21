@@ -33,7 +33,7 @@ export const Form = styled.form`
   }
 
   > .buttontext {
-    margin-top: 124px;
+    margin-top: 48px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
 `;

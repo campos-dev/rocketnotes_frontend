@@ -1,0 +1,17 @@
+[33mcommit b9e4df00b3da6cd366ac232e4ed3a991e9d28384[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Marcelo Campos <camposwebdev@gmail.com>
+Date:   Mon Jun 19 14:40:13 2023 -0300
+
+    add deployed website readme
+
+[33mcommit da06d6855d0c1d192f5d85df2906aded9ae728d8[m
+Author: Marcelo Campos <camposwebdev@gmail.com>
+Date:   Mon Jun 19 14:21:08 2023 -0300
+
+    base url modified to work remotely
+
+[33mcommit fb9326673b634ebcac44694f9009baa06d987c59[m[33m ([m[1;32mlocal_work[m[33m)[m
+Author: Marcelo Campos <camposwebdev@gmail.com>
+Date:   Mon Jun 19 14:12:00 2023 -0300
+
+    add Rocketnotes frontend integration with backend
