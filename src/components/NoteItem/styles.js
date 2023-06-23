@@ -16,6 +16,13 @@ export const Container = styled.div`
 
   padding-right: 16px;
 
+  @media (max-width: 35rem) {
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+
+    padding-right: 1rem;
+  }
+
   > button {
     border: none;
     background: none;
@@ -39,6 +46,12 @@ export const Container = styled.div`
     background-color: transparent;
 
     border: none;
+
+    @media (max-width: 35rem) {
+      height: 3rem;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+    }
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};

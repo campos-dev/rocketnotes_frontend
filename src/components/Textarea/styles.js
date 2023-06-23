@@ -15,6 +15,15 @@ export const Container = styled.textarea`
 
   padding: 16px;
 
+  @media (max-width: 35rem) {
+    font-size: 1.2rem;
+    height: 10rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+
+    padding: 0.8rem;
+  }
+
   &:placeholder {
     color: ${({ theme }) => theme.COLORS.GRAY_300};
   }

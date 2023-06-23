@@ -6,4 +6,8 @@ export const Container = styled.button`
     $isActive ? theme.COLORS.ORANGE : theme.COLORS.GRAY_100};
   border: none;
   font-size: 16px;
+
+  @media (max-width: 35rem) {
+    font-size: 1rem;
+  }
 `;

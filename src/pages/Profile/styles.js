@@ -12,6 +12,11 @@ export const Container = styled.div`
     align-items: center;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
+    @media (max-width: 35rem) {
+      height: 8rem;
+      padding: 0 2rem;
+    }
+
     > button {
       background: none;
       border: none;
@@ -21,6 +26,10 @@ export const Container = styled.div`
   svg {
     font-size: 24px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
+
+    @media (max-width: 35rem) {
+      font-size: 2.5rem;
+    }
   }
 `;
 
@@ -28,8 +37,17 @@ export const Form = styled.form`
   width: 340px;
   margin: 30px auto 0;
 
+  @media (max-width: 35rem) {
+    width: 25rem;
+    margin: 2rem auto 0;
+  }
+
   > div:nth-child(4) {
     margin-top: 24px;
+
+    @media (max-width: 35rem) {
+      margin-top: 2rem;
+    }
   }
 `;
 
@@ -40,10 +58,22 @@ export const Avatar = styled.div`
   width: 186px;
   height: 186px;
 
+  @media (max-width: 35rem) {
+    margin: -8rem auto 3rem;
+
+    width: 12rem;
+    height: 12rem;
+  }
+
   > img {
     width: 186px;
     height: 186px;
     border-radius: 50%;
+
+    @media (max-width: 35rem) {
+      width: 12rem;
+      height: 12rem;
+    }
   }
 
   > label {
@@ -62,6 +92,14 @@ export const Avatar = styled.div`
     right: 7px;
 
     cursor: pointer;
+
+    @media (max-width: 35rem) {
+      width: 4rem;
+      height: 4rem;
+
+      bottom: 0.2rem;
+      right: 0.2rem;
+    }
 
     input {
       display: none;

@@ -14,6 +14,12 @@ export const Container = styled.div`
     "newnote content";
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+
+  @media (max-width: 35rem) {
+    width: 100vw;
+    grid-template-columns: 0.7fr 2fr;
+    grid-template-rows: 0.1fr 0.1fr auto 0.1fr;
+  }
 `;
 
 export const Brand = styled.div`
@@ -30,6 +36,11 @@ export const Brand = styled.div`
   > h1 {
     font-size: 24px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
+
+    @media (max-width: 35rem) {
+      font-size: 1rem;
+      padding: 0 0.5rem;
+    }
   }
 `;
 
@@ -41,14 +52,26 @@ export const Menu = styled.ul`
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
+  @media (max-width: 35rem) {
+    padding-top: 0.5rem;
+  }
+
   > li {
     margin-bottom: 24px;
+
+    @media (max-width: 35rem) {
+      margin-bottom: 0.2rem;
+    }
   }
 `;
 
 export const Search = styled.div`
   grid-area: search;
   padding: 64px 64px 0;
+
+  @media (max-width: 35rem) {
+    padding: 1rem 1rem 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -56,6 +79,10 @@ export const Content = styled.div`
 
   padding: 0 64px;
   overflow-y: auto;
+
+  @media (max-width: 35rem) {
+    padding: 0 1rem;
+  }
 `;
 
 export const NewNote = styled(Link)`
@@ -69,7 +96,15 @@ export const NewNote = styled(Link)`
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
+  @media (max-width: 35rem) {
+    font-size: 1rem;
+  }
+
   > svg {
     margin-right: 8px;
+
+    @media (max-width: 35rem) {
+      margin-right: 0.5rem;
+    }
   }
 `;

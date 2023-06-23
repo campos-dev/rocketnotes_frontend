@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin: 28px 0;
 
+  @media (max-width: 35rem) {
+    margin: 1rem 0;
+  }
+
   > h2 {
     border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
     padding-bottom: 16px;
@@ -11,5 +15,11 @@ export const Container = styled.section`
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 20px;
     font-weight: 400;
+
+    @media (max-width: 35rem) {
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
   }
 `;
