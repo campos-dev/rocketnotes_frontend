@@ -18,7 +18,7 @@ export const Container = styled.div`
   @media (max-width: 35rem) {
     width: 100vw;
     grid-template-columns: 0.7fr 2fr;
-    grid-template-rows: 5rem 0.1fr auto 0.2fr;
+    grid-template-rows: 5rem 0.1fr auto 0.15fr;
   }
 `;
 
