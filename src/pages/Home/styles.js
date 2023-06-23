@@ -18,7 +18,7 @@ export const Container = styled.div`
   @media (max-width: 35rem) {
     width: 100vw;
     grid-template-columns: 0.7fr 2fr;
-    grid-template-rows: 5rem 0.1fr auto 0.1fr;
+    grid-template-rows: 5rem 0.1fr auto 0.2fr;
   }
 `;
 
@@ -97,6 +97,8 @@ export const NewNote = styled(Link)`
   color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   @media (max-width: 35rem) {
+    padding: 1rem 0.7rem 0 0;
+    align-items: start;
     font-size: 1rem;
   }
 
@@ -105,6 +107,7 @@ export const NewNote = styled(Link)`
 
     @media (max-width: 35rem) {
       margin-right: 0.5rem;
+      padding-top: 0.2rem;
     }
   }
 `;
